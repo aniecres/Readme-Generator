@@ -23,7 +23,27 @@ const questions = [
       {
         type: 'input',
         name: 'instillation',
-        message: ''
+        message: 'What is included in the Installation?'
+      },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'Exlplain the Usage for your project.'
+      },
+      {
+        type: 'input',
+        name: 'licesne',
+        message: 'What license did you use for this project?'
+      },
+      {
+        type: 'input',
+        name: 'Contributers',
+        message: 'List any contributers included in this project.'
+      },
+      {
+        type: 'input',
+        name: 'tests',
+        message: 'Having you done any testings for your projects? If so, include your tests.'
       }
 ];
 
