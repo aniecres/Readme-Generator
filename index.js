@@ -44,6 +44,16 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Have you done any testings for your projects? If so, include your tests.'
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'What is your Github username?'
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is the best email to reach you?'
       }
 ];
 
@@ -71,5 +81,5 @@ function init() {
 // Function call to initialize app
 init();
 
-// Export
+//  To expoert the questions
 module.exports = questions
