@@ -17,6 +17,15 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  let licenseLink = '';
+  if (license === 'MIT') {
+    licenseLink = 'https://opensource.org/licenses/MIT'
+  } else if (license === 'GPLv3') {
+    licenseLink = 'https://www.gnu.org/licenses/gpl-3.0.en.html'
+  } else if (license === 'none') {
+    licenseLink = '';
+  }
+  return licenseLink;
   
 }
 
