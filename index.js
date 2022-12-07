@@ -7,52 +7,52 @@ const generateMarkdownFile = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
-        name: 'title',
+        name: 'Title',
         message: 'What is the name of your project?',
       },
       {
         type: 'input',
-        name: 'description',
+        name: 'Description',
         message: 'Write a short description explaining your project.'
       },
       {
         type: 'input',
-        name: 'table',
+        name: 'Table',
         message: 'If you choose to, write a Table of Contents.'
       },
       {
         type: 'input',
-        name: 'instillation',
+        name: 'Installation',
         message: 'What is included in the Installation?'
       },
       {
         type: 'input',
-        name: 'usage',
+        name: 'Usage',
         message: 'Exlplain the Usage for your project.'
       },
       {
         type: 'input',
-        name: 'licesne',
+        name: 'License',
         message: 'What license did you use for this project?'
       },
       {
         type: 'input',
-        name: 'Contributers',
+        name: 'Contributors',
         message: 'List any contributers included in this project.'
       },
       {
         type: 'input',
-        name: 'tests',
+        name: 'Tests',
         message: 'Have you done any testings for your projects? If so, include your tests.'
       },
       {
         type: 'input',
-        name: 'github',
+        name: 'Github',
         message: 'What is your Github username?'
       },
       {
         type: 'input',
-        name: 'email',
+        name: 'Email',
         message: 'What is the best email to reach you?'
       }
 ];
@@ -72,8 +72,8 @@ function init() {
   inquirer.prompt(questions)
   .then(function(data) {
     console.log(data);
-    let fileName = generateMarkdownFile(data);
-    writeToFile(fileName,JSON.stringify(data));
+    const answers = generateMarkdownFile(data);
+    writeToFile('ExampleREADME.MD', answers);
 })
 }
 
