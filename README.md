@@ -8,4 +8,5 @@ To be able to help the user create a README.md file with already having the stru
 To help create this program, Node.Js and Inquirer practiced. As well as npm package dependencies was installed by npm install in your terminal. 
 
 ## Usage
-[Insert instructional video here]
+![02957AFD-C4D8-4852-A8A6-146142796C2D_1_105_c](https://user-images.githubusercontent.com/111096788/206096078-60f147f9-0ccf-49f4-a1f5-31e57bbeaa48.jpeg)
+

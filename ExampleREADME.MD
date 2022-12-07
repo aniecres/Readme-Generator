@@ -1,22 +1,22 @@
 
 
 # Title 
-Readme.MD
+Read Me
 
 ## Description 
-Project
+None
 
 ## Table of Contents
 None
 
 ## Installation 
-Fs, Inquirer, Node
+None
 
 ## Usage
-Readme generator 
+None
 
 ## License
-MIT
+None
 
 ## Contributors
 None
