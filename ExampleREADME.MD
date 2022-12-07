@@ -4,25 +4,25 @@
 Read Me
 
 ## Description 
-None
+none
 
 ## Table of Contents
-None
+none
 
 ## Installation 
-None
+none
 
 ## Usage
-None
+none
 
 ## License
-None
+none
 
 ## Contributors
-None
+none
 
 ## Tests
-No
+no
 
 ## Questions
 If you have any questions, reach out!
