@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
     if (err) {
       return console.log(err);
     }
-    console.log('You did it! Here is your README.md!')
+    console.log('You did it! Here is your README.md!', data)
   });
 }
 
@@ -73,7 +73,7 @@ function init() {
   .then(function(data) {
     console.log(data);
     let fileName = generateMarkdownFile(data);
-    writeToFile(fileName, data);
+    writeToFile(fileName,JSON.stringify(data));
 })
 }
 
