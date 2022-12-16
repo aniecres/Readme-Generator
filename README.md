@@ -9,4 +9,5 @@ To help create this program, Node.Js and Inquirer practiced. As well as npm pack
 
 ## Usage
 
+![screen-gif](./Recording.gif)
 
